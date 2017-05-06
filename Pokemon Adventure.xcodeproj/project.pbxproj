@@ -13,6 +13,7 @@
 		F61B38F41EBE67DB009A957D /* Pokemon_Adventure.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F61B38F21EBE67DB009A957D /* Pokemon_Adventure.xcdatamodeld */; };
 		F61B38F61EBE67DB009A957D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61B38F51EBE67DB009A957D /* Assets.xcassets */; };
 		F61B38F91EBE67DB009A957D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61B38F71EBE67DB009A957D /* LaunchScreen.storyboard */; };
+		F61B39021EBE699F009A957D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F61B39011EBE699F009A957D /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F61B38F51EBE67DB009A957D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F61B38F81EBE67DB009A957D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F61B38FA1EBE67DB009A957D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F61B39011EBE699F009A957D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F61B39021EBE699F009A957D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				F61B38EA1EBE67DB009A957D /* Pokemon Adventure */,
 				F61B38E91EBE67DB009A957D /* Products */,
+				F61B39001EBE699F009A957D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				F61B38F21EBE67DB009A957D /* Pokemon_Adventure.xcdatamodeld */,
 			);
 			path = "Pokemon Adventure";
+			sourceTree = "<group>";
+		};
+		F61B39001EBE699F009A957D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F61B39011EBE699F009A957D /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
