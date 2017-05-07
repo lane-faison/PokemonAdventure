@@ -14,6 +14,9 @@
 		F61B38F61EBE67DB009A957D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61B38F51EBE67DB009A957D /* Assets.xcassets */; };
 		F61B38F91EBE67DB009A957D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61B38F71EBE67DB009A957D /* LaunchScreen.storyboard */; };
 		F61B39021EBE699F009A957D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F61B39011EBE699F009A957D /* MapKit.framework */; };
+		F658D3641EBEE52A00380ED5 /* PokedexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658D3631EBEE52A00380ED5 /* PokedexViewController.swift */; };
+		F658D3661EBEE69A00380ED5 /* CoreDataHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658D3651EBEE69A00380ED5 /* CoreDataHelp.swift */; };
+		F65C0B511EBF819300C37CBE /* PokeAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65C0B501EBF819300C37CBE /* PokeAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		F61B38F81EBE67DB009A957D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F61B38FA1EBE67DB009A957D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F61B39011EBE699F009A957D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F658D3631EBEE52A00380ED5 /* PokedexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
+		F658D3651EBEE69A00380ED5 /* CoreDataHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelp.swift; sourceTree = "<group>"; };
+		F65C0B501EBF819300C37CBE /* PokeAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 			children = (
 				F61B38EB1EBE67DB009A957D /* AppDelegate.swift */,
 				F61B38ED1EBE67DB009A957D /* ViewController.swift */,
+				F658D3631EBEE52A00380ED5 /* PokedexViewController.swift */,
+				F658D3651EBEE69A00380ED5 /* CoreDataHelp.swift */,
+				F65C0B501EBF819300C37CBE /* PokeAnnotation.swift */,
 				F61B38EF1EBE67DB009A957D /* Main.storyboard */,
 				F61B38F51EBE67DB009A957D /* Assets.xcassets */,
 				F61B38F71EBE67DB009A957D /* LaunchScreen.storyboard */,
@@ -153,7 +162,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F61B38F41EBE67DB009A957D /* Pokemon_Adventure.xcdatamodeld in Sources */,
+				F65C0B511EBF819300C37CBE /* PokeAnnotation.swift in Sources */,
+				F658D3641EBEE52A00380ED5 /* PokedexViewController.swift in Sources */,
 				F61B38EE1EBE67DB009A957D /* ViewController.swift in Sources */,
+				F658D3661EBEE69A00380ED5 /* CoreDataHelp.swift in Sources */,
 				F61B38EC1EBE67DB009A957D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +330,7 @@
 				F61B38FF1EBE67DB009A957D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
